@@ -1,0 +1,2 @@
+g++ -I `root-config --incdir ` -o TrigCheck TrigCheck.C `root-config --libs` && ./TrigCheck > tmp.txt
+g++ -I `root-config --incdir ` -o Plotting Plotting.C `root-config --libs` && ./Plotting > tmp_plot.txt
